@@ -234,7 +234,7 @@ Install_Socks5(){
 
 INSTALL(){
 	if [ ! -f /usr/bin/ssr ];then
-		wget -O /root/ssr_file.zip "https://github.com/qinghuas/ss-panel-and-ss-py-mu/archive/master.zip"
+		wget -O /root/ssr_file.zip "https://github.com/luiyezheng/ss-panel-and-ss-py-mu/archive/master.zip"
 		unzip /root/ssr_file.zip -d /root;mv /root/ss-panel-and-ss-py-mu-master/* /root
 		cp /root/ssr.sh /usr/bin/ssr;chmod 777 /usr/bin/ssr
 		rm -rf ssr_file.zip /root/ss-panel-and-ss-py-mu-master /root/picture /root/README.md /root/ssr.sh
